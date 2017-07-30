@@ -30,14 +30,15 @@
             android:layout_weight="0.51" />
 
         <Button
-            android:id="@+id/button_dasacucak"
+            android:id="@+id/button7"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_above="@+id/button6"
             android:layout_alignStart="@+id/button5"
             android:layout_gravity="center"
             android:layout_marginBottom="15dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="10dp"
+            android:autoText="false"
             android:background="@drawable/button_color"
             android:text="Դասացուցակ"
             android:textAppearance="@style/TextAppearance.AppCompat.Mine"
@@ -48,7 +49,7 @@
             android:id="@+id/button5"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/button_dasacucak"
+            android:layout_above="@+id/fab"
             android:layout_alignStart="@+id/button4"
             android:layout_gravity="center"
             android:layout_marginBottom="15dp"
@@ -119,7 +120,7 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_above="@+id/button"
-            android:layout_alignStart="@+id/button_dasacucak"
+            android:layout_alignStart="@+id/fab"
             android:layout_marginBottom="15dp"
             android:layout_gravity="center"
             android:background="@drawable/button_color"
@@ -133,7 +134,7 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_above="@+id/button"
-            android:layout_alignStart="@+id/button_dasacucak"
+            android:layout_alignStart="@+id/fab"
             android:layout_marginBottom="15dp"
             android:layout_gravity="center"
             android:background="@drawable/button_color"
@@ -141,6 +142,14 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Mine"
             android:textColor="@drawable/text_color"
             android:textSize="16sp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@android:drawable/ic_dialog_email" />
 
     </LinearLayout>
 
